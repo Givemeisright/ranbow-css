@@ -1,76 +1,31 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background: rgba(0, 0, 0, 0);
+.container {
+
+    width: 300px;
+    height: 170px;
+    position: relative;
+    margin: 250px auto;
+    overflow: hidden;
 }
 
 .rainbow {
+    width: 200px;
     height: 200px;
-    overflow: hidden;
-
-}
-
-.rainbow div {
-    overflow: hidden;
-}
-
-.rainbow>div {
-    width: 400px;
-    height: 400px;
-    background: hsl(0, 100%, 50%);
+    position: absolute;
+    top: 70px;
+    left: 50px;
     border-radius: 50%;
-}
-
-.rainbow>div>div {
-    background: hsl(60, 100%, 50%);
-    height: 380px;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.rainbow>div>div>div {
-    background: hsl(120, 100%, 50%);
-    height: 360px;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.rainbow>div>div>div>div {
-    background: hsl(180, 100%, 50%);
-    height: 340px;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.rainbow>div>div>div>div>div {
-    background: hsl(240, 100%, 50%);
-    height: 320px;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.rainbow>div>div>div>div>div>div {
-    background: hsl(300, 100%, 50%);
-    height: 300px;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.rainbow>div>div>div>div>div>div>div {
-    background: hsl(330, 100%, 50%);
-    height: 280px;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.rainbow>div>div>div>div>div>div>div>div {
-
-    background: white;
-    height: 260px;
-    margin: 10px;
-    border-radius: 50%;
+    box-shadow:
+        violet 0px 0px 0px 5px,
+        indigo 0px 0px 0px 10px,
+        blue 0px 0px 0px 15px,
+        green 0px 0px 0px 20px,
+        yellow 0px 0px 0px 25px,
+        orange 0px 0px 0px 30px,
+        red 0px 0px 0px 35px
 }
